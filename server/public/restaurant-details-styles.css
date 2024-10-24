@@ -1,9 +1,39 @@
-.restaurant-details {
-    margin: 30px 50px 30px 30px;
-    display: flex;
+/* restaurant-details-styles.css */
+
+body {
+    font-family: Arial, sans-serif;
 }
 
-.restaurant-details-img { 
-    width: 300px;
-    margin-right: 30px;
+.restaurant-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.restaurant-details h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.restaurant-details p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.restaurant-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
