@@ -27,13 +27,11 @@ body {
 }
 
 a {
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 1.2em;
-    color: blue;
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #333;
+    text-decoration: none;
 }
